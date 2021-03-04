@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c2a35</color>
+    <color name="colorPrimaryDark">#1c2a35</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#fff</color>
+    <color name="white_transparent">#00FFFFFF</color>
+
+    <color name="foreground">#1890ae</color>
+    <color name="button">#103d64</color>
+    <color name="background">#111e27</color>
+    <color name="transparent">#E61C2A35</color>
+    <color name="tsp">#B3111E27</color>
+    <color name="tsp1">#00FFFFFF</color>
+    <color name="colorAccent1">#E6D81B60</color>
+
+    <color name="light">#04b89b</color>
+    <color name="p">#80111E27</color>
+
+</resources>

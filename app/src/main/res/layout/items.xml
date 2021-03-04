@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rv_back"
+        android:elevation="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+
+        android:layout_marginStart="3dp"
+
+
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:maxWidth="180dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvlikes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvlikes"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_corner_radius="13dp" />
+
+        <ImageView
+
+            android:id="@+id/like"
+
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+
+            android:elevation="5dp"
+
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:padding="3dp"
+
+            android:src="@drawable/like"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="4sp"
+            android:textStyle="bold"
+            android:tint="@color/colorAccent1"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/tvlikes"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:elevation="5dp"
+            android:gravity="center"
+            android:tint="@color/tsp1"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/like" />
+
+        <ImageView
+            android:id="@+id/button5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+
+            android:backgroundTint="@color/tsp"
+            android:elevation="0dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
